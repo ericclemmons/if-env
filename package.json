@@ -1,0 +1,27 @@
+{
+  "name": "if-env",
+  "version": "1.0.0",
+  "description": "Simplify npm scripts with \"if-env ... && npm run this || npm run that\"",
+  "bin": "bin/if-env.js",
+  "scripts": {
+    "preversion": "github_changelog_generator",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericclemmons/if-env.git"
+  },
+  "keywords": [
+    "npm",
+    "script",
+    "env",
+    "if",
+    "run"
+  ],
+  "author": "Eric Clemmons <eric@smarterspam.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericclemmons/if-env/issues"
+  },
+  "homepage": "https://github.com/ericclemmons/if-env#readme"
+}
