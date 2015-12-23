@@ -4,8 +4,16 @@
   "description": "Simplify npm scripts with \"if-env ... && npm run this || npm run that\"",
   "bin": "bin/if-env.js",
   "scripts": {
-    "preversion": "github_changelog_generator",
-    "test": "NODE_ENV=test mocha"
+    "changelog": "npm-run-all changelog:generate changelog:add",
+    "changelog:add": "git add CHANGELOG.md",
+    "changelog:generate": "github_changelog_generator --future-release $npm_package_version",
+    "postversion": "npm-run-all version:amend publish",
+    "publish": "npm-run-all publish:git publish:npm",
+    "publish:git": "git push origin master --tags",
+    "publish:npm": "npm publish",
+    "test": "NODE_ENV=test mocha",
+    "version": "npm run changelog",
+    "version:ammend": "git commit --amend -m \"Release v${npm_package_version}\" && npm run release"
   },
   "repository": {
     "type": "git",
@@ -27,5 +35,8 @@
   "devDependencies": {
     "expect": "1.13.4",
     "mocha": "2.3.4"
+  },
+  "dependencies": {
+    "npm-run-all": "1.4.0"
   }
 }
