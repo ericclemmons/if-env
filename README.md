@@ -2,6 +2,12 @@
 
 > Simplify npm scripts with `if-env ... && npm run this || npm run that`
 
+[![travis build](https://img.shields.io/travis/if-env.svg?style=flat-square)](https://travis-ci.org/if-env)
+[![Coverage Status](https://coveralls.io/repos/ericclemmons/if-env/badge.svg?branch=master&service=github&style=flat-square)](https://coveralls.io/github/ericclemmons/if-env?branch=master)
+[![version](https://img.shields.io/npm/v/start-cluster.svg?style=flat-square)](http://npm.im/start-cluster)
+[![downloads](https://img.shields.io/npm/dm/if-env.svg?style=flat-square)](http://npm-stat.com/charts.html?package=start-cluster)
+[![MIT License](https://img.shields.io/npm/l/if-env.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
 - - -
 
 Suppose you want to simplify development and be able to run `npm start`
