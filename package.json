@@ -5,7 +5,7 @@
   "bin": "bin/if-env.js",
   "scripts": {
     "preversion": "github_changelog_generator",
-    "test": "mocha"
+    "test": "NODE_ENV=test mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/ericclemmons/if-env/issues"
   },
-  "homepage": "https://github.com/ericclemmons/if-env#readme"
+  "homepage": "https://github.com/ericclemmons/if-env#readme",
+  "devDependencies": {
+    "expect": "1.13.4",
+    "mocha": "2.3.4"
+  }
 }
