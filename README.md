@@ -23,7 +23,7 @@ Instead, you can write:
 
 ```json
 "scripts": {
-  "start": "if-env NODE_ENV=production && npm run start:prod || npm start:dev",
+  "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
   "start:dev": "webpack",
   "start:prod": "start-cluster"
 }
