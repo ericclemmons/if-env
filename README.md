@@ -4,6 +4,10 @@
 
 - - -
 
+**I recommend switching to [`per-env`](https://github.com/ericclemmons/per-env), which is much simpler and much more powerful!**
+
+- - -
+
 Suppose you want to simplify development and be able to run `npm start`
 in all environments & run the correct scripts.
 
