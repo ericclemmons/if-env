@@ -34,9 +34,7 @@
   "homepage": "https://github.com/ericclemmons/if-env#readme",
   "devDependencies": {
     "expect": "1.13.4",
-    "mocha": "2.3.4"
-  },
-  "dependencies": {
+    "mocha": "2.3.4",
     "npm-run-all": "1.4.0"
   }
 }
