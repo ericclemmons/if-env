@@ -4,7 +4,7 @@
 
 - - -
 
-**I recommend switching to [`per-env`](https://github.com/ericclemmons/per-env), which is much simpler and much more powerful!**
+**For conditions that involve only the NODE_ENV parameter - I recommend switching to [`per-env`](https://github.com/ericclemmons/per-env), which is much simpler and much more powerful!**
 
 - - -
 
