@@ -11,6 +11,7 @@ node_js:
   - "0.12"
 before_script:
   - npm prune
+after_success: npm run coverage
 branches:
   except:
     - "/^v\\d+\\.\\d+\\.\\d+$/"
