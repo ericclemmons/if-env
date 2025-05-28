@@ -37,9 +37,7 @@
     "coveralls": "2.11.6",
     "expect": "1.13.4",
     "mocha": "2.3.4",
+    "npm-run-all": "1.4.0",
     "nyc": "5.0.1"
-  },
-  "dependencies": {
-    "npm-run-all": "1.4.0"
   }
 }
